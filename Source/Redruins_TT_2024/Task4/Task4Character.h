@@ -23,5 +23,5 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(Replicated, BlueprintReadWrite, VisibleAnywhere, Category="ReplicatedObj")
-	UUReplicateObject* ReplicatedObj;
+	UUReplicateObject* ReplicatedObj = nullptr;
 };
